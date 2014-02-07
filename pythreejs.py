@@ -121,7 +121,7 @@ class Renderer(DOMWidget):
 
     
 class Light(Object3d):
-    color = Any('white', sync=True) # could be string or number or tuple
+    color = Any('blue', sync=True) # could be string or number or tuple
 
 class AmbientLight(Light):
     _view_name = Unicode('AmbientLight', sync=True)
