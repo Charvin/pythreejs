@@ -62,7 +62,7 @@ class FaceGeometry(Geometry):
 
 class Material(Widget):
     _view_name = Unicode('MaterialView', sync=True)
-    color = Any('yellow', sync=True)
+    color = Any('red', sync=True)
     opacity = CFloat(1.0, sync=True)
     wireframe = Bool(False, sync=True)
 
